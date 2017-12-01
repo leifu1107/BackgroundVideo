@@ -1,6 +1,6 @@
 # BackgroundVideo
 //视频做背景,模仿QQ,小红书等登录时的背景视频,视频文件放在raw中
-
+----
 //自定义一个VideoView 
 
 public class FullScreenVideoView extends VideoView {
