@@ -29,9 +29,16 @@ public class FullScreenVideoView extends VideoView {
         setMeasuredDimension(width, height);
     }
 }
+```
 
-在Activty中直接使用,把视频放在raw中
 
+去掉状态栏,全屏显示
+```java
+getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+```
+在Activty中直接使用,把视频放在rse/raw中
+```java
  private void playVideoView() {
  
         mVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video));
@@ -61,3 +68,4 @@ public class FullScreenVideoView extends VideoView {
         mVideoView.stopPlayback();
         super.onStop();
     }
+```
