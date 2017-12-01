@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_video_view_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <leilifu.com.backgroundvideo.FullScreenVideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="手机QQ"
+        android:textColor="#fff"
+        android:textSize="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#333"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="#333"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
