@@ -1,10 +1,12 @@
 # BackgroundVideo
-//视频做背景,模仿QQ,小红书等登录时的背景视频,视频文件放在raw中
+视频做背景,模仿QQ,小红书等登录时的背景视频,视频文件放在raw中
 ----
-//自定义一个VideoView 
 
+![](https://github.com/leifu1107/BackgroundVideo/raw/master/art/1512114794341.gif) 
+
+自定义一个VideoView 
+```java
 public class FullScreenVideoView extends VideoView {
-
     public FullScreenVideoView(Context context) {
         super(context);
     }
@@ -28,7 +30,7 @@ public class FullScreenVideoView extends VideoView {
     }
 }
 
-//在Activty中直接使用,把视频放在raw中
+在Activty中直接使用,把视频放在raw中
 
  private void playVideoView() {
  
