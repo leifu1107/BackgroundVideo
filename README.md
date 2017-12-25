@@ -69,3 +69,8 @@ getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
         super.onStop();
     }
 ```
+## APK文件
+
+扫描二维码 或者 点击二维码 下载
+
+[![AlipayHome](https://github.com/leifu1107/BackgroundVideo/raw/master/art/zrcode.png)](https://github.com/leifu1107/BackgroundVideo/raw/master/art/app-release.apk)
